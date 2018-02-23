@@ -16,10 +16,6 @@ import java.util.Scanner;
 import com.feicuiedu.atm.controller.FunctionController;
 import com.feicuiedu.atm.entity.User;
 
-/**
- * 普通用户功能
- * @author 王
- */
 public class UserDao {
 	
 	private User user;
