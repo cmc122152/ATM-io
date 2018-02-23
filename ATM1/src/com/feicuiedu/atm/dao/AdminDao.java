@@ -243,9 +243,9 @@ public class AdminDao{
 				String[] aArray = str2.split("\\, ");
 				
 				//账号
-				String zh = aArray[0];//"账号=23232"
-				String[] zhs = zh.split("=");//"账号   23232"
-				user.setAccount(zhs[1]);//"232"
+				String zh = aArray[0];
+				String[] zhs = zh.split("=");
+				user.setAccount(zhs[1]);
 				
 				//性别
 				String xb = aArray[3];
