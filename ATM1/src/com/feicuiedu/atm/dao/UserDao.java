@@ -53,9 +53,9 @@ public class UserDao {
 				String[] aArray = str1.split("\\, ");
 				
 				//账号
-				String zh = aArray[0];//"账号=23232"
-				String[] zhs = zh.split("=");//"账号   23232"
-				user.setAccount(zhs[1]);//"232"
+				String zh = aArray[0];
+				String[] zhs = zh.split("=");
+				user.setAccount(zhs[1]);
 				
 				//密码
 				String mm = aArray[1];
@@ -482,9 +482,9 @@ public class UserDao {
 				//分割一个用户信息
 				String[] aArray = incomeUser.split("\\, ");
 				//账号
-				String zh = aArray[0];//"账号=23232"
-				String[] zhs = zh.split("=");//"账号   23232"
-				user1.setAccount(zhs[1]);//"232"
+				String zh = aArray[0];
+				String[] zhs = zh.split("=");
+				user1.setAccount(zhs[1]);
 				
 				//密码
 				String mm = aArray[1];
@@ -532,9 +532,9 @@ public class UserDao {
 				String[] aArray2 = loginUser.split("\\, ");
 				
 				//账号
-				String zh = aArray2[0];//"账号=23232"
-				String[] zhs = zh.split("=");//"账号   23232"
-				user2.setAccount(zhs[1]);//"232"
+				String zh = aArray2[0];
+				String[] zhs = zh.split("=");
+				user2.setAccount(zhs[1]);
 				
 				//密码
 				String mm = aArray2[1];
@@ -720,9 +720,9 @@ public class UserDao {
 				String[] aArray = str1.split("\\, ");
 				
 				//账号
-				String zh = aArray[0];//"账号=23232"
-				String[] zhs = zh.split("=");//"账号   23232"
-				user.setAccount(zhs[1]);//"232"
+				String zh = aArray[0];
+				String[] zhs = zh.split("=");
+				user.setAccount(zhs[1]);
 				
 				//姓名
 				String xm = aArray[2];
